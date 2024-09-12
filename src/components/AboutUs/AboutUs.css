@@ -1,0 +1,154 @@
+.about-us-1{
+    height: calc(100vh - 90px);
+    background-color: white;
+    background-image: url("../../images/logo-background.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 50px 30px 50px;
+}
+
+.text-block-1{
+   height: fit-content;
+}
+.text-block-1 .text-1{
+    margin-top: 0;
+    color: #144388;
+    text-transform: uppercase;
+    font-size: clamp(20px, 3.0vw, 65px);
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+}
+
+.text-block-1 .text-2{
+    width: 70%;
+    color: #144388;
+    font-size: clamp(18px, 2.0vw, 45px);
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    margin-bottom: 70px;
+}
+
+.text-block-1 .contact-us-btn{
+    margin-top: 60px;
+    background-color: #1ececd;
+    width: 40%;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 14px 17px;
+    color: #144388;
+    font-size: clamp(15px, 1.9vw, 45px);
+}
+
+.img-block{
+    width: 53%;
+}
+
+.img-block.phone{
+    display: none;
+}
+
+.img-block img{
+    width: 100%;
+}
+
+.about-us-2{
+    height: calc(91vh - 100px);
+    background-image: url("../../images/about-us-background.png");
+    background-size: cover;
+    padding: 50px 70px;
+}
+
+.text-block-2 .text-1{
+    color: #1ececd;
+    text-transform: uppercase;
+    font-size: clamp(25px, 4vw, 65px);
+    margin: 0 0 50px 0;
+    letter-spacing: 0.1rem;
+}
+
+.text-block-2 .text-2{
+    color: #ffffff;
+    font-size: clamp(19px, 2.5vw, 55px);
+    margin: 0 0 60px 0;
+    letter-spacing: 0.1rem;
+}
+
+.text-block-2 .text-3{
+    width: 90%;
+    color: #ffffff;
+    font-size: clamp(17px, 2.3vw, 50px);
+    margin: 0 0 40px 0;
+    font-weight: 200;
+    letter-spacing: 0.1rem;
+}
+
+@media screen and (max-width: 768px){
+    .about-us-1{
+        height: 480px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 70px 30px 30px 30px;
+    }
+
+    .text-block-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .text-block-1 .text-2{
+
+        width: 100%;
+        text-align: center;
+
+        font-weight: 600;
+        letter-spacing: 0.1rem;
+        margin-bottom: 20px;
+    }
+
+    .text-block-1 .contact-us-btn{
+        margin-top: 0;
+        width: fit-content;
+    }
+
+    .img-block{
+        display: none;
+    }
+
+    .img-block.phone{
+        display: contents;
+    }
+
+    .img-block.phone img{
+        max-width: 400px;
+        width: 90%;
+    }
+    .about-us-2{
+        height: fit-content;
+        padding: 30px 30px 70px 30px;
+    }
+
+    .text-block-2 .text-1{
+        margin: 0 0 30px 0;
+    }
+
+    .text-block-2 .text-2{
+        margin: 0 0 40px 0;
+    }
+
+    .text-block-2 .text-3{
+        margin: 0 0 20px 0;
+    }
+
+}
+
+@media screen and (max-width: 464px) {
+
+    .text-block-2 .text-2 br{
+        display: none;
+    }
+}

@@ -1,0 +1,92 @@
+.main-page-header{
+    width: 100%;
+    background-color: #25598e;
+    overflow: hidden;
+}
+
+.main-page-header .logo-block{
+    height: calc(10% - 40px);
+    display: flex;
+    align-items: center;
+    /*height: 18vh;*/
+    background-color: #25598e;
+    background-image: url("../../images/vnv-logo-background.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    padding: 20px 30px;
+}
+
+.header-logo{
+    width: 20%;
+    opacity: 1;
+}
+
+.main-page-header .header-links{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.main-page-header .header-links.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+
+.main-page-header .header-link{
+    padding: 10px 35px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+.main-page-header .header-link a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #11316c;
+    font-size: 22px;
+}
+
+
+
+.main-page-header .header-link:hover{
+    background-color: #144388;
+    color: white;
+}
+
+.main-page-header .header-link:hover a{
+    color: white;
+}
+
+
+@media screen and (max-width: 768px){
+    .main-page-header .header-links{
+      display: none;
+    }
+
+    .logo-block{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-logo{
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 425px){
+
+    .main-page-header .logo-block{
+        padding: 20px 10px;
+        background-size: 70%;
+    }
+
+
+    .header-logo{
+        width: 55%;
+    }
+}
+

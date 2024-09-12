@@ -1,0 +1,23 @@
+.contact-form-block{
+    position:  relative ;
+    height: 850px;
+    background: #144388;
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .contact-form-block{
+        height: 730px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .contact-form-block{
+        height: 590px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contact-form-block{
+        height: 580px;
+    }
+}

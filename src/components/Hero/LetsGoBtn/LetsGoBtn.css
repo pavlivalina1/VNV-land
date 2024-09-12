@@ -1,0 +1,30 @@
+.lets-go-btn{
+    margin: auto;
+    width: fit-content;
+    padding: 15px 30px;
+    background-color: #144388;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.lets-go-btn a{
+    text-decoration: none;
+    width: 100%;
+    color: white;
+    font-size: clamp(12px, 2vw, 30px);
+    font-weight: 500;
+    letter-spacing: 3px;
+    transition: all 0.3s ease;
+}
+
+.lets-go-btn:hover{
+    background-color: white;
+    color: #144388;
+}
+
+.lets-go-btn:hover > a{
+    color: #144388;
+}

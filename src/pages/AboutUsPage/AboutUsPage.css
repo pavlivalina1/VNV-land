@@ -1,0 +1,26 @@
+
+
+.about-us-contact-form-block{
+    position:  relative ;
+    height: 850px;
+    background-image: linear-gradient(to bottom, rgba(27, 205, 204, 0.37), rgba(27, 205, 204, 0.37));
+
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .about-us-contact-form-block{
+        height: 730px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .about-us-contact-form-block{
+        height: 590px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-us-contact-form-block{
+        height: 580px;
+    }
+}
